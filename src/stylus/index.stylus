@@ -1,0 +1,8 @@
+// @layer & theme() in development
+// https://windicss.netlify.app/guide/directives.html#compatibility-chart
+// https://tailwindcss.com/docs/functions-and-directives
+
+// @layer base {}
+// @layer components {}
+// @layer utilities {}
+

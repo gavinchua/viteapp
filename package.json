@@ -1,0 +1,27 @@
+{
+  "name": "viteapp",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build",
+    "jsonserver": "json-server --no-cor --watch ./src/jsonserver/db.json --port 4000",
+    "full": "concurrently \"npm run jsonserver\" \"npm run dev\""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-vue": "^7.6.0",
+    "nprogress": "^0.2.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "stylus": "^0.54.8",
+    "vite": "^2.0.1",
+    "vite-aliases": "^0.5.0",
+    "vite-plugin-windicss": "^0.4.4"
+  }
+}
