@@ -1,4 +1,3 @@
-// import Vue from 'vue'
 import APIClient from '@api/APIClient'
 
 const state = () => ({

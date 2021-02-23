@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from '@router'
+import store from '@store'
 
 import 'windi.css'
 import '@stylus/index.stylus'
