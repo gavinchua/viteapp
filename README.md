@@ -1,4 +1,6 @@
-# Vite + Vue 3 + Windi CSS + Fake JSON Server
+# Vite 2 + Vue 3 + Windi CSS + Fake JSON Server
+
+## Usage
 
 ### Project setup
 ```
@@ -19,20 +21,29 @@ npm run build
 ```
 npm run jsonserver
 ```
+
 http://localhost:4000/posts  
 http://localhost:4000/comments  
 http://localhost:4000/profile
 
-### Full stack App
+### Full stack app with Fake JSON Server
 ```
 npm run full
 ```
 
-### Windi CSS
-https://windicss.netlify.app
+## References
 
-### Tailwind CSS
-https://tailwindcss.com/
+- [Vite](https://vitejs.dev)
+- [Windi CSS](https://windicss.netlify.app)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Fake JSON Server](https://www.npmjs.com/package/json-server)
 
-### Fake JSON Server
-https://www.npmjs.com/package/json-server
+## Browser compatibility
+
+https://vitejs.dev/guide/build.html#browser-compatibility
+
+- [Legacy browser support](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy)
+
+## Vite 2 + Vue 3 + Windi CSS + TypeScript boilerplate
+
+https://github.com/antfu/vitesse
