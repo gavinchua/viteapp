@@ -2,7 +2,7 @@
   <h1>
     Home
   </h1>
-  <Counter />
+  <Counter :text="'Increase my counter'" />
   <Posts />
 </template>
 
