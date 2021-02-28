@@ -13,9 +13,8 @@ const actions = {
   async getPosts({ commit }) {
     try {
       const response = await APIClient.getPosts()
-      const posts = Object.freeze(response.data)
 
-      commit('setPosts', posts)
+      commit('setPosts', response.data)
     } catch (error) {
       if (error.response) {
         console.log(error.response)
@@ -29,10 +28,8 @@ const actions = {
 }
 
 const mutations = {
-  increment(state) {
-    state.count++
-  },
-  setPosts: (state, payload) => {
+  increment: state => state.count++,
+  setPosts(state, payload) {
     state.posts = payload
   }
 }
