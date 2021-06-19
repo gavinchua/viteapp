@@ -2,6 +2,12 @@
 
 ## Usage
 
+### Global packages
+```
+npm install -g concurrently
+npm install -g json-server
+```
+
 ### Project setup
 ```
 npm i
@@ -36,6 +42,7 @@ npm run full
 - [Vite](https://vitejs.dev)
 - [Windi CSS](https://windicss.netlify.app)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Concurrently](https://www.npmjs.com/package/concurrently)
 - [Fake JSON Server](https://www.npmjs.com/package/json-server)
 
 ## Browser compatibility
