@@ -8,21 +8,21 @@
     "full": "concurrently \"npm run jsonserver\" \"npm run dev\""
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "nprogress": "^0.2.0",
-    "vue": "^3.1.1",
-    "vue-router": "^4.0.9",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.3",
-    "@vue/compiler-sfc": "^3.1.1",
-    "eslint": "^7.29.0",
-    "eslint-plugin-vue": "^7.11.1",
+    "@vitejs/plugin-vue": "^1.10.2",
+    "@vue/compiler-sfc": "^3.2.37",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.20.0",
     "stylus": "^0.54.8",
-    "vite": "^2.3.7",
-    "vite-aliases": "^0.8.1",
-    "vite-plugin-windicss": "^1.0.4"
+    "vite": "^2.9.12",
+    "vite-aliases": "^0.8.7",
+    "vite-plugin-windicss": "^1.8.4"
   },
   "homepage": "https://github.com/gavinchua/viteapp/blob/main/README.md"
 }
